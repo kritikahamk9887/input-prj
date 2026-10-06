@@ -46,10 +46,11 @@ else
 {
  System.out.println("The sum is: " + sum );
 }
-//else{
-   // System.out.println("Check your inputs" );
- //   }
+
 }
+else {
+   System.out.println("Check your inputs" );
+  }
 
     }
     }
