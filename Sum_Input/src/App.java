@@ -6,19 +6,19 @@ public class App
     {
 
         Scanner in = new Scanner(System.in);
-        int num1=0 ;
-        int num2=0;
-        int sum=num1+num2;
-        int minus=num1-num2;   
+        double num1=0 ;
+        double num2=0;
+        double sum=num1+num2;
+        double minus=num1-num2;   
         String s_m = "p";
         
         System.out.println("Please give the value of first number :");
-        num1= Integer.parseInt(in.nextLine());
+        num1= Double.parseDouble(in.nextLine());
         
  
          System.out.println("Please give the value of second number :");
        
-        num2=Integer.parseInt(in.nextLine());
+        num2= Double.parseDouble(in.nextLine());
     
     
             
