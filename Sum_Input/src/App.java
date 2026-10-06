@@ -30,6 +30,8 @@ s_m=in.nextLine();
 sum=num1+num2;   
 minus=num1-num2;
 
+// In this programme we will check sum or subtraction as well as if the sum is greater than 10 or not.
+
 if (s_m.equals("m")  ) {
     System.out.println("The result is : " + minus ); 
 
